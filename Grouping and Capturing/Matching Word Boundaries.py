@@ -5,7 +5,7 @@ Created on Thu Apr 21 17:19:35 2022
 @author: FPCC
 """
 
-regex_pattern = r"hackerrank"	# Do not delete 'r'.
+regex_pattern = r'\b[aeiouAEIOU][a-zA-Z]*\b'	# Do not delete 'r'.
 
 import re
 import sys
